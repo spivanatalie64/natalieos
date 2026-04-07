@@ -1,0 +1,10 @@
+NAME="NatalieOS"
+PRETTY_NAME="NatalieOS"
+ID=natalieos
+ID_LIKE=arch
+BUILD_ID=rolling
+ANSI_COLOR="38;2;190;100;240"
+HOME_URL="https://github.com/spivanatalie64/natalieos"
+SUPPORT_URL="https://github.com/spivanatalie64/natalieos/issues"
+BUG_REPORT_URL="https://github.com/spivanatalie64/natalieos/issues"
+LOGO=natalieos-logo

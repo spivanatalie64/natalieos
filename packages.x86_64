@@ -1,0 +1,73 @@
+# Base system
+base
+base-devel
+linux
+linux-firmware
+linux-headers
+
+# Boot
+grub
+efibootmgr
+syslinux
+mtools
+dosfstools
+
+# Networking
+networkmanager
+network-manager-applet
+wireless_tools
+wpa_supplicant
+dialog
+dhcpcd
+openssh
+
+# Filesystems
+btrfs-progs
+e2fsprogs
+exfatprogs
+f2fs-tools
+jfsutils
+ntfs-3g
+reiserfsprogs
+xfsprogs
+
+# Disk / install utilities
+arch-install-scripts
+gptfdisk
+parted
+gparted
+
+# Shell / terminal
+bash
+zsh
+nano
+vim
+git
+wget
+curl
+rsync
+tmux
+
+# Archiso live tools
+archiso
+mkinitcpio
+mkinitcpio-archiso
+
+# Desktop (minimal XFCE live session)
+xorg
+xorg-server
+xfce4
+xfce4-goodies
+lightdm
+lightdm-gtk-greeter
+firefox
+
+# Audio
+pipewire
+pipewire-alsa
+pipewire-pulse
+wireplumber
+
+# Fonts
+noto-fonts
+ttf-dejavu
