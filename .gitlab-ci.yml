@@ -1,0 +1,23 @@
+image: archlinux:latest
+
+stages:
+  - build
+
+build-iso:
+  stage: build
+  tags:
+    - docker
+  before_script:
+    - pacman -Syu --noconfirm archiso
+  script:
+    - mkdir -p out work
+    - mkarchiso -v -w work -o out .
+  after_script:
+    - rm -rf work  # clean up large work dir
+  artifacts:
+    name: "natalieos-${CI_COMMIT_SHORT_SHA}"
+    paths:
+      - out/*.iso
+    expire_in: 30 days
+  only:
+    - main
